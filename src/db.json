@@ -1,0 +1,623 @@
+{
+	"sosuri": [
+		{
+			"id": 0,
+			"nume": "Sos de Lamaie",
+			"tip": "rece",
+			"descriere": "Sos de lamaie servit ca si garnitura pentru preparate din peste, creier si ciuperci.",
+			"ingrediente": [
+				{
+					"ingredient": "lamaie",
+					"cantGram": 3
+				},
+				{
+					"ingredient": "sare de lamaie",
+					"cantGram": 3
+				},
+				{
+					"ingredient": "ulei",
+					"cantGram": 250
+				},
+				{
+					"ingredient": "apa minerala",
+					"cantGram": 650
+				},
+				{
+					"ingredient": "mazare verde",
+					"cantGram": 50
+				},
+				{
+					"ingredient": "piper macinat",
+					"cantGram": 2
+				},
+				{
+					"ingredient": "sare",
+					"cantGram": 10
+				},
+				{
+					"ingredient": "patrunjel",
+					"cantGram": 0
+				},
+				{
+					"ingredient": "marar",
+					"cantGram": 0
+				}
+			],
+			"indicatii": [
+				{
+					"mesaj": "lamaia se spala si se extrage sucul",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "uleiul se bate cu telul pana incepe sa se tublure",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se adauga sucul de lamaie, apa minerala, sare de lamaie, piperul si sarea si se continua",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se adauga patrunjelul tocat marunt",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se serveste cu preparate din peste, creier, ciuperci",
+					"timerSec": 0
+				}
+			],
+			"cuvinteCheie": [
+				"lamaie",
+				"sare de lamaie",
+				"ulei",
+				"apa minerala",
+				"mazare verde",
+				"piper macinat",
+				"sare",
+				"patrunjel",
+				"marar",
+				"suc",
+				"peste",
+				"creier",
+				"ciuperci",
+				"sos lamaie",
+				"rece",
+				"sos rece"
+			]
+		},
+		{
+			"id": 1,
+			"nume": "Sos Alb",
+			"tip": "rece",
+			"descriere": "Sos alb rece pentru servirea impreuna cu preparate reci din pasare, produse din carne, sau peste.",
+			"ingrediente": [
+				{
+					"ingredient": "unt",
+					"cantGram": 80
+				},
+				{
+					"ingredient": "faina",
+					"cantGram": 100
+				},
+				{
+					"ingredient": "supa pasare",
+					"cantGram": 100
+				},
+				{
+					"ingredient": "frisca",
+					"cantGram": 100
+				},
+				{
+					"ingredient": "gelatina",
+					"cantGram": 30
+				},
+				{
+					"ingredient": "sare",
+					"cantGram": 15
+				}
+			],
+			"indicatii": [
+				{
+					"mesaj": "untul se topeste si se amesteca cu faina",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se dizolva cu supa de pasare astfel incat sa nu fie cocoloase",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se fierbe timp de 20 de minute",
+					"timerSec": 1200
+				},
+				{
+					"mesaj": "se adauga frisca si gelatina si se amesteca pana la omogenizare",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "pe urma se strecoara ...",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se serveste cu preparate reci din pasare, cu produse din carne, precum si pestele",
+					"timerSec": 0
+				}
+			],
+			"cuvinteCheie": [
+				"unt",
+				"faina",
+				"supa pasare",
+				"frisca",
+				"gelatina",
+				"sare",
+				"pasare",
+				"carne",
+				"peste",
+				"rece",
+				"alb",
+				"sos alb"
+			]
+		}
+	],
+	"felPrincipal": [
+		{
+			"id": 2,
+			"nume": "Chiftelute din Cartofi",
+			"tip": "fel principal",
+			"descriere": "Chiftelute din cartofi pentru 10 porti.",
+			"ingrediente": [
+				{
+					"ingredient": "cartofi",
+					"cantGram": 1500
+				},
+				{
+					"ingredient": "oua",
+					"cantGram": 150
+				},
+				{
+					"ingredient": "faina",
+					"cantGram": 150
+				},
+				{
+					"ingredient": "ulei",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "piper",
+					"cantGram": 2
+				},
+				{
+					"ingredient": "sare",
+					"cantGram": 30
+				}
+			],
+			"indicatii": [
+				{
+					"mesaj": "cartofii se fierb cu coaje si sare",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se toaca cu masina",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se adauga ouale, sarea, piperul si se amesteca",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "din aceasta compozitie se modeleaza chiftelutele cate 2 bucati la portie, se dau prin faina si se prajesc in ulei incins",
+					"timerSec": 0
+				}
+			],
+			"cuvinteCheie": [
+				"chiftele",
+				"chiftelute",
+				"cartof",
+				"cartofi",
+				"oua",
+				"faina",
+				"ulei",
+				"piper",
+				"sare",
+				"fel principal"
+			]
+		},
+		{
+			"id": 3,
+			"nume": "Cascaval Pane",
+			"tip": "fel principal",
+			"descriere": "Cascaval pane pentru 10 portii",
+			"ingrediente": [
+				{
+					"ingredient": "cascaval",
+					"cantGram": 1000
+				},
+				{
+					"ingredient": "oua",
+					"cantGram": 150
+				},
+				{
+					"ingredient": "faina",
+					"cantGram": 80
+				},
+				{
+					"ingredient": "pesmet",
+					"cantGram": 250
+				},
+				{
+					"ingredient": "ulei",
+					"cantGram": 150
+				}
+			],
+			"indicatii": [
+				{
+					"mesaj": "cascavalul se curata de coaja(daca are coaja) si se taie cate 2 bucati per portie",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se trec bucatile prin faina, prin ouale batute si apoi prin pesmet",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se prajesc in ulei pe ambele parti si se serveste fierbinte",
+					"timerSec": 0
+				}
+			],
+			"cuvinteCheie": [
+				"cascaval",
+				"cascaval pane",
+				"pane",
+				"oua",
+				"faina",
+				"pesmet",
+				"ulei"
+			]
+		}
+	],
+	"supeCiorbe": [
+		{
+			"id": 4,
+			"nume": "Ciorba Taraneasca de Vita",
+			"tip": "ciorba",
+			"descriere": "Ciorba taraneasca de vita pentru 10 portii",
+			"ingrediente": [
+				{
+					"ingredient": "morcovi",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "patrunjel (radacina)",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "telina",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "ceapa",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "cartofi",
+					"cantGram": 500
+				},
+				{
+					"ingredient": "ardei grasi",
+					"cantGram": "100"
+				},
+				{
+					"ingredient": "varza alba",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "rosii proaspete",
+					"cantGram": 500
+				},
+				{
+					"ingredient": "leustean verde",
+					"cantGram": 50
+				},
+				{
+					"ingredient": "mazare conserva",
+					"cantGram": 100
+				},
+				{
+					"ingredient": "fasole verde conserva",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "pasta tomate",
+					"cantGram": 50
+				},
+				{
+					"ingredient": "patrunjel verde",
+					"cantGram": 50
+				},
+				{
+					"ingredient": "carne de vita",
+					"cantGram": 750
+				},
+				{
+					"ingredient": "sare de lamaie",
+					"cantGram": 5
+				},
+				{
+					"ingredient": "sare",
+					"cantGram": 40
+				}
+			],
+			"indicatii": [
+				{
+					"mesaj": "se spala carnea, apoi se portioneaza si se pune la fiert in apa rece cu sare",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "cand da in spuma se adauga ceapa taiata marunt, zarzavaturile taiate marunt is varza taiata feliute si se lasa sa fiarba",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "cand este aproape gata fiarta (?) se adauga cartofi taiati patratele, mazarea, fasolea verde, pasta de tomate, rosiile si se mai fierbe pana se simt toate fierte",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se adauga leusteanul si patrunjelul taiate marunt",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se acreste cu sarea de lamaie si se serveste calda",
+					"timerSec": 0
+				}
+			],
+			"cuvinteCheie": [
+				"ciorba",
+				"taraneasca",
+				"vita",
+				"taranesc",
+				"morcovi",
+				"patrunjel",
+				"radacina",
+				"telina",
+				"ceapa",
+				"cartofi",
+				"ardei grasi",
+				"ardei",
+				"varza alba",
+				"rosii proaspete",
+				"rosii",
+				"leustean",
+				"verde",
+				"leustean verde",
+				"mazare",
+				"fasole",
+				"conserva",
+				"pasta",
+				"tomate",
+				"patrunjel",
+				"carne",
+				"sare",
+				"sare de lamaie",
+				"lamaie"
+			]
+		},
+		{
+			"id": 5,
+			"nume": "Supa din Fasole Boabe si Costita Afumata",
+			"tip": "supa",
+			"descriere": "Supa din fasole boabe si costita afumata",
+			"ingrediente": [
+				{
+					"ingredient": "fasole boabe",
+					"cantGram": 500
+				},
+				{
+					"ingredient": "costita afumata",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "telina (radacina)",
+					"cantGram": 100
+				},
+				{
+					"ingredient": "morcovi (radacina)",
+					"cantGram": 150
+				},
+				{
+					"ingredient": "patrunjel",
+					"cantGram": 100
+				},
+				{
+					"ingredient": "rosii",
+					"cantGram": 250
+				},
+				{
+					"ingredient": "costita",
+					"cantGram": 400
+				},
+				{
+					"ingredient": "iaurt",
+					"cantGram": 300
+				},
+				{
+					"ingredient": "faina",
+					"cantGram": 25
+				},
+				{
+					"ingredient": "patrunjel verde",
+					"cantGram": 50
+				},
+				{
+					"ingredient": "sare",
+					"cantGram": 30
+				}
+			],
+			"indicatii": [
+				{
+					"mesaj": "fasolea se alege si se lasa in apa rece 12 ore",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se fierbe 15 minute",
+					"timerSec": 900
+				},
+				{
+					"mesaj": "se strecoare din apa si se inlocuieste cu alta apa fierbinte, se continua fierberea pana cand fasolea este pe jumatate fiarta",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se adauga zarzavaturi taiate marunt",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se inabusa costita afumata in 100 ml de apa",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se adauga costita afumata in supa impreuna cu rosiile",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "spre sfarsitul fierberii se adauga faina amestecat cu iaurtul si sarea, se serveste calda",
+					"timerSec": 0
+				}
+			],
+			"cuvinte cheie": [
+				"fasole boabe",
+				"fasole",
+				"costita afumata",
+				"costita",
+				"telina",
+				"morcovi",
+				"patrunjel",
+				"rosii",
+				"iaurt",
+				"faina",
+				"patrunjel verde",
+				"patrunjel",
+				"verde",
+				"sare",
+				"supa",
+				"boabe"
+			]
+		}
+	],
+	"deserturi": [
+		{
+			"id": 4,
+			"nume": "Prajitura cu Mere",
+			"tip": "desert cald",
+			"descriere": "Prajitura cu mere sau cu branza",
+			"ingrediente": [
+				{
+					"ingredient": "unt sau untura",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "zahar",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "oua",
+					"cantGram": "2 bucati"
+				},
+				{
+					"ingredient": "vin alb sau otet",
+					"cantGram": "2 linguri"
+				},
+				{
+					"ingredient": "lapte",
+					"cantGram": "1 ceasca"
+				},
+				{
+					"ingredient": "praf de copt",
+					"cantGram": "1 plic"
+				},
+				{
+					"ingredient": "bicarbonat",
+					"cantGram": "1 lingurita"
+				},
+				{
+					"ingredient": "vanilie sau coaja de lamaie",
+					"cantGram": "2 plic"
+				},
+				{
+					"ingredient": "sare",
+					"cantGram": "1 lingurita"
+				}
+			],
+			"indicatii": [
+				{
+					"mesaj": "se freaca untul sau untura cu zaharul",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se adauga ouale, laptele si restul ingredientelor cu exceptia fainei",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se adauga faina cat cuprinde aluatul si se imparte in doua foi",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se coace 30-40 min",
+					"timerSec": 1800
+				}
+			]
+		},
+		{
+			"id": 5,
+			"nume": "Prajitura cu Cacao",
+			"tip": "desert cald",
+			"descriere": "Prajitura cu cacao",
+			"ingrediente": [
+				{
+					"ingredient": "oua",
+					"cantGram": "2 bucati"
+				},
+				{
+					"ingredient": "zahar pudra",
+					"cantGram": "1 cani"
+				},
+				{
+					"ingredient": "ulei",
+					"cantGram": "1 lingura?"
+				},
+				{
+					"ingredient": "lapte",
+					"cantGram": "1 lingura?"
+				},
+				{
+					"ingredient": "gem de caise",
+					"cantGram": "3 linguri"
+				},
+				{
+					"ingredient": "cacao",
+					"cantGram": "3 linguri"
+				},
+				{
+					"ingredient": "bicarbonat stins in otet",
+					"cantGram": "1 lingura"
+				},
+				{
+					"ingredient": "coaja rasa de lamaie",
+					"cantGram": 0
+				},
+				{
+					"ingredient": "faina",
+					"cantGram": "2 cani"
+				}
+			],
+			"indicatii": [
+				{
+					"mesaj": "se bat ouale cu zaharul",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se adauga pe rand toate ingredientele si la urma faina",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se coace la foc potrivit. De asemenea, se pot pune visine pe deasupra prajiturii inainte de a pune la copt",
+					"timerSec": 0
+				}
+			]
+		}
+	]
+}
