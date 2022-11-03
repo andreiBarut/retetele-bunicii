@@ -10,6 +10,10 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+h2 {
+	cursor: pointer;
+}
+
 .recipe-container {
 	border: 2px solid black;
 	display: flex;
