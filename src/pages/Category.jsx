@@ -16,11 +16,12 @@ const Category = (props) => {
 	return (
 		<div className="search-container">
 			<h1>{category}</h1>
-			<label>Insereaza ingredientul aici</label>
+
 			<br />
-			<div>
+			<div className="category-search-container">
+				<label>Insereaza ingredientul aici</label>
 				<input />
-				<button>Cauta</button>
+				<button className="category-search-button">Cauta</button>
 			</div>
 			<div className="category-cards-list">
 				{db[category].map((receipe) => (
@@ -36,7 +37,7 @@ const Category = (props) => {
 								className="custom-red-button"
 								onClick={() => handleRedirect(receipe.nume)}
 							>
-								Gateste
+								GATESTE
 							</button>
 						</div>
 					</Card>
