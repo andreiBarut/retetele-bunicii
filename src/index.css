@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=IM+Fell+DW+Pica+SC&display=swap");
+
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
 		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale; */
+	font-family: "IM Fell DW Pica SC", serif;
+	background-color: #fff7ed;
 }
 
 code {
@@ -14,29 +18,93 @@ h2 {
 	cursor: pointer;
 }
 
-.recipe-container {
-	border: 2px solid black;
+.all-container {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.home-info-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.home-info-container > img {
+	height: 60px;
+}
+
+.home-info-header {
+	text-align: center;
+}
+
+.main-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 5vw;
+	height: 200px;
+	position: relative;
+	/* top: 5rem; */
+	/* left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); */
+}
+
+.element-container {
+	text-align: center;
+}
+
+.home-cateogory-link-container:hover {
+	transform: scale(1.2);
+	transition: 0.6s;
+	color: #d93838;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.search-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 80vw;
-	margin: 0 auto;
-	border-radius: 10px;
+	justify-content: center;
 }
 
-.cook-button {
-	height: 3rem;
-	width: 7rem;
-	margin-bottom: 1rem;
-	background-color: rgb(144, 42, 42);
+.category-card-body-paragraph {
+	width: 15rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: auto;
+}
+
+.custom-red-button {
+	font-size: large;
+	background: #d93838;
+	border-radius: 10px;
 	color: white;
-	font-size: 1.5rem;
-	border: 0;
-	border-radius: 10px;
+	width: 10rem;
+	height: 4rem;
+	margin: 1rem;
+	border: none;
+	cursor: pointer;
 }
 
-.cook-button:hover {
+.custom-red-button:hover {
 	background-color: black;
+	color: #fff7ed;
 	transition: 0.3s;
-	cursor: pointer;
+}
+
+.category-cards-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }

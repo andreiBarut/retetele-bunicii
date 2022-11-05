@@ -1,8 +1,9 @@
 {
-	"sosuri": [
+	"Sosuri": [
 		{
 			"id": 0,
 			"nume": "Sos de Lamaie",
+			"image": "images/sosDeLamaie.jpg",
 			"tip": "rece",
 			"descriere": "Sos de lamaie servit ca si garnitura pentru preparate din peste, creier si ciuperci.",
 			"ingrediente": [
@@ -88,6 +89,7 @@
 		{
 			"id": 1,
 			"nume": "Sos Alb",
+			"image": "images/sosAlb.jpg",
 			"tip": "rece",
 			"descriere": "Sos alb rece pentru servirea impreuna cu preparate reci din pasare, produse din carne, sau peste.",
 			"ingrediente": [
@@ -159,13 +161,38 @@
 			]
 		}
 	],
-	"felPrincipal": [
+	"Fel Principal": [
 		{
 			"id": 2,
 			"nume": "Chiftelute din Cartofi",
+			"image": "images/chifteluteDeCartofi.jpeg",
 			"tip": "fel principal",
 			"descriere": "Chiftelute din cartofi pentru 10 porti.",
 			"ingrediente": [
+				{
+					"ingredient": "cartofi",
+					"cantGram": 1500
+				},
+				{
+					"ingredient": "oua",
+					"cantGram": 150
+				},
+				{
+					"ingredient": "faina",
+					"cantGram": 150
+				},
+				{
+					"ingredient": "ulei",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "piper",
+					"cantGram": 2
+				},
+				{
+					"ingredient": "sare",
+					"cantGram": 30
+				},
 				{
 					"ingredient": "cartofi",
 					"cantGram": 1500
@@ -225,6 +252,7 @@
 		{
 			"id": 3,
 			"nume": "Cascaval Pane",
+			"image": "images/cascavalPane.jpeg",
 			"tip": "fel principal",
 			"descriere": "Cascaval pane pentru 10 portii",
 			"ingrediente": [
@@ -274,10 +302,11 @@
 			]
 		}
 	],
-	"supeCiorbe": [
+	"Supe | Ciorbe": [
 		{
 			"id": 4,
 			"nume": "Ciorba Taraneasca de Vita",
+			"image": "images/ciorbaTaraneascaDeVita.jpg",
 			"tip": "ciorba",
 			"descriere": "Ciorba taraneasca de vita pentru 10 portii",
 			"ingrediente": [
@@ -401,109 +430,136 @@
 		},
 		{
 			"id": 5,
-			"nume": "Supa din Fasole Boabe si Costita Afumata",
-			"tip": "supa",
-			"descriere": "Supa din fasole boabe si costita afumata",
+			"nume": "Supa de Fasole Boabe si Costita Afumata",
+			"image": "images/supaDeFasoleBoabeSiCostitaAfumata.jpg",
+			"tip": "ciorba",
+			"descriere": "Supa de Fasole Boabe si Costita Afumata pentru 10 portii",
 			"ingrediente": [
 				{
-					"ingredient": "fasole boabe",
-					"cantGram": 500
-				},
-				{
-					"ingredient": "costita afumata",
+					"ingredient": "morcovi",
 					"cantGram": 200
 				},
 				{
-					"ingredient": "telina (radacina)",
+					"ingredient": "patrunjel (radacina)",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "telina",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "ceapa",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "cartofi",
+					"cantGram": 500
+				},
+				{
+					"ingredient": "ardei grasi",
+					"cantGram": "100"
+				},
+				{
+					"ingredient": "varza alba",
+					"cantGram": 200
+				},
+				{
+					"ingredient": "rosii proaspete",
+					"cantGram": 500
+				},
+				{
+					"ingredient": "leustean verde",
+					"cantGram": 50
+				},
+				{
+					"ingredient": "mazare conserva",
 					"cantGram": 100
 				},
 				{
-					"ingredient": "morcovi (radacina)",
-					"cantGram": 150
+					"ingredient": "fasole verde conserva",
+					"cantGram": 200
 				},
 				{
-					"ingredient": "patrunjel",
-					"cantGram": 100
-				},
-				{
-					"ingredient": "rosii",
-					"cantGram": 250
-				},
-				{
-					"ingredient": "costita",
-					"cantGram": 400
-				},
-				{
-					"ingredient": "iaurt",
-					"cantGram": 300
-				},
-				{
-					"ingredient": "faina",
-					"cantGram": 25
+					"ingredient": "pasta tomate",
+					"cantGram": 50
 				},
 				{
 					"ingredient": "patrunjel verde",
 					"cantGram": 50
 				},
 				{
+					"ingredient": "carne de vita",
+					"cantGram": 750
+				},
+				{
+					"ingredient": "sare de lamaie",
+					"cantGram": 5
+				},
+				{
 					"ingredient": "sare",
-					"cantGram": 30
+					"cantGram": 40
 				}
 			],
 			"indicatii": [
 				{
-					"mesaj": "fasolea se alege si se lasa in apa rece 12 ore",
+					"mesaj": "se spala carnea, apoi se portioneaza si se pune la fiert in apa rece cu sare",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se fierbe 15 minute",
-					"timerSec": 900
-				},
-				{
-					"mesaj": "se strecoare din apa si se inlocuieste cu alta apa fierbinte, se continua fierberea pana cand fasolea este pe jumatate fiarta",
+					"mesaj": "cand da in spuma se adauga ceapa taiata marunt, zarzavaturile taiate marunt is varza taiata feliute si se lasa sa fiarba",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se adauga zarzavaturi taiate marunt",
+					"mesaj": "cand este aproape gata fiarta (?) se adauga cartofi taiati patratele, mazarea, fasolea verde, pasta de tomate, rosiile si se mai fierbe pana se simt toate fierte",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se inabusa costita afumata in 100 ml de apa",
+					"mesaj": "se adauga leusteanul si patrunjelul taiate marunt",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se adauga costita afumata in supa impreuna cu rosiile",
-					"timerSec": 0
-				},
-				{
-					"mesaj": "spre sfarsitul fierberii se adauga faina amestecat cu iaurtul si sarea, se serveste calda",
+					"mesaj": "se acreste cu sarea de lamaie si se serveste calda",
 					"timerSec": 0
 				}
 			],
-			"cuvinte cheie": [
-				"fasole boabe",
-				"fasole",
-				"costita afumata",
-				"costita",
-				"telina",
+			"cuvinteCheie": [
+				"ciorba",
+				"taraneasca",
+				"vita",
+				"taranesc",
 				"morcovi",
 				"patrunjel",
+				"radacina",
+				"telina",
+				"ceapa",
+				"cartofi",
+				"ardei grasi",
+				"ardei",
+				"varza alba",
+				"rosii proaspete",
 				"rosii",
-				"iaurt",
-				"faina",
-				"patrunjel verde",
-				"patrunjel",
+				"leustean",
 				"verde",
+				"leustean verde",
+				"mazare",
+				"fasole",
+				"conserva",
+				"pasta",
+				"tomate",
+				"patrunjel",
+				"carne",
 				"sare",
-				"supa",
-				"boabe"
+				"sare de lamaie",
+				"lamaie",
+				"cheddar"
 			]
 		}
 	],
-	"deserturi": [
+	"Deserturi": [
 		{
 			"id": 4,
 			"nume": "Prajitura cu Mere",
+			"image": "images/prajituraCuMere.jpg",
 			"tip": "desert cald",
 			"descriere": "Prajitura cu mere sau cu branza",
 			"ingrediente": [
@@ -561,11 +617,30 @@
 					"mesaj": "se coace 30-40 min",
 					"timerSec": 1800
 				}
+			],
+			"cuvinteCheie": [
+				"unt",
+				"untura",
+				"zahar",
+				"oua",
+				"vin",
+				"vin alb",
+				"otet",
+				"lapte",
+				"praf de copt",
+				"bicarbonat",
+				"vanilie",
+				"coaja de lamaie",
+				"sare",
+				"prajitura",
+				"mere",
+				"branza"
 			]
 		},
 		{
 			"id": 5,
 			"nume": "Prajitura cu Cacao",
+			"image": "images/prajituraCuCacao.jpg",
 			"tip": "desert cald",
 			"descriere": "Prajitura cu cacao",
 			"ingrediente": [
@@ -619,6 +694,20 @@
 					"mesaj": "se coace la foc potrivit. De asemenea, se pot pune visine pe deasupra prajiturii inainte de a pune la copt",
 					"timerSec": 0
 				}
+			],
+			"cuvinteCheie": [
+				"oua",
+				"zahar pudra",
+				"ulei",
+				"lapte",
+				"gem de caise",
+				"cacao",
+				"bicarbonat",
+				"otet",
+				"coaja de lamaie",
+				"faina",
+				"prajiura",
+				"cald"
 			]
 		}
 	]
