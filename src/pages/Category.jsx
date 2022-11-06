@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import db from "../db.json";
+import db from "../db-final.json";
 import Card from "../components/card/card";
 import "../index.css";
 
@@ -19,9 +19,16 @@ const Category = (props) => {
 
 			<br />
 			<div className="category-search-container">
-				<label>Insereaza ingredientul aici</label>
+				<div className="home-info-container">
+					<img src="/images/info.png" alt="..." />
+					<h2 className="home-info-header">
+						alege una dintre retetele disponibile, sau introdu niste cuvinte cuvinte
+						cheie, iar noi te vom ajuta sa gasesti reteta potrivita.
+					</h2>
+				</div>
 				<input />
 				<button className="category-search-button">Cauta</button>
+				<h1>Retete</h1>
 			</div>
 			<div className="category-cards-list">
 				{db[category].map((receipe) => (

@@ -6,7 +6,7 @@ const Home = () => {
 	return (
 		<div>
 			<div className="home-info-container">
-				<img src="images/info.png" alt="..." />
+				<img src="/images/info.png" alt="..." />
 				<h2 className="home-info-header">
 					alege o categorie de mancare din optiunile de mai jos si vom gasi reteta
 					potrivita pentru tine.

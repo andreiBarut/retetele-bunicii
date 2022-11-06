@@ -6,7 +6,7 @@ const Card = ({ title, image, children }) => {
 			<h5 className="card-title" title={title}>
 				{title}
 			</h5>
-			{image && <img src={image} alt="..." />}
+			{image && <img src={image} alt="..." className="card-recipe-image" />}
 			<div className="card-body">{children}</div>
 		</div>
 	);

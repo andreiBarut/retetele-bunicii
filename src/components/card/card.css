@@ -34,3 +34,7 @@
 	width: 276px;
 	object-fit: cover;
 }
+
+.card-recipe-image {
+	border-radius: 10px;
+}

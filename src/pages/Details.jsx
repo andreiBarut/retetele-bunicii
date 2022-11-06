@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import db from "../db.json";
+import db from "../db-final.json";
 
 const Details = () => {
 	const { name, category } = useParams();
