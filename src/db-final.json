@@ -326,7 +326,8 @@
 			"ingrediente": [
 				{
 					"ingredient": "unt",
-					"cantGram": 950
+					"cantGram": 950,
+					"unit": "g"
 				},
 				{
 					"ingredient": "lamaie",

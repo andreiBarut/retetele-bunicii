@@ -143,3 +143,21 @@ input {
 .category-search-container > label {
 	font-size: larger;
 }
+
+.details-wrapper {
+	text-align: center;
+}
+
+.details-wrapper > img {
+	width: 50%;
+	max-width: 50rem;
+	min-width: 20rem;
+	height: auto;
+}
+
+.details-indicatii-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 2rem;
+}

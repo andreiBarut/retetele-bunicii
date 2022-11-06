@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import db from "../db-final.json";
 import Card from "../components/card/card";
@@ -6,11 +6,35 @@ import "../index.css";
 
 const Category = (props) => {
 	const { category } = useParams();
+	const [list, setList] = useState(db[category]);
+
 	const navigate = useNavigate();
-	console.log(category);
+	const searchRef = useRef();
+
+	useEffect(() => {
+		document.addEventListener("keypress", searchOnEnter);
+		return () => document.removeEventListener("keydown", searchOnEnter);
+	}, []);
+
+	function searchOnEnter(key) {
+		console.log(key);
+		if (key.code === "Enter") handleSearch();
+	}
 
 	function handleRedirect(nume) {
 		navigate(`/details/${nume}/${category}`);
+	}
+
+	function handleSearch() {
+		const value = searchRef.current.value.toLowerCase();
+		if (!value || value === "") {
+			setList(db[category]);
+			return;
+		}
+		const foundData = db[category].filter((cat) => {
+			return cat.cuvinteCheie.includes(value);
+		});
+		setList(foundData);
 	}
 
 	return (
@@ -26,12 +50,14 @@ const Category = (props) => {
 						cheie, iar noi te vom ajuta sa gasesti reteta potrivita.
 					</h2>
 				</div>
-				<input />
-				<button className="category-search-button">Cauta</button>
+				<input type="text" ref={searchRef} />
+				<button className="category-search-button" onClick={handleSearch}>
+					Cauta
+				</button>
 				<h1>Retete</h1>
 			</div>
 			<div className="category-cards-list">
-				{db[category].map((receipe) => (
+				{list.map((receipe) => (
 					<Card title={receipe.nume} image={"/" + receipe.image}>
 						<div>
 							<p className="category-card-body-paragraph">
