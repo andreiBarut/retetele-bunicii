@@ -1,6 +1,5 @@
 .card-title {
 	height: 40px;
-	width: 25rem;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 25px;
@@ -21,6 +20,7 @@
 	border-radius: 10px;
 	margin: 1rem;
 	cursor: pointer;
+	width: 20rem;
 }
 
 .card-container:hover {

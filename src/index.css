@@ -71,6 +71,7 @@ a {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 8rem;
 }
 
 .category-card-body-paragraph {
@@ -87,11 +88,12 @@ a {
 	border-radius: 10px;
 	color: white;
 	width: 10rem;
-	height: 4rem;
+	height: 3rem;
 	margin: 1rem;
 	border: none;
 	cursor: pointer;
 	font-family: "IM Fell DW Pica SC", serif;
+	max-width: 6rem;
 }
 
 .custom-red-button:hover {
@@ -153,11 +155,37 @@ input {
 	max-width: 50rem;
 	min-width: 20rem;
 	height: auto;
+	border-radius: 10px;
 }
 
 .details-indicatii-wrapper {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 	margin-bottom: 2rem;
+}
+
+.details-macro-container {
+	background-color: #ffffff;
+	padding: 1.5rem;
+	border-radius: 10px;
+}
+
+.details-macro-name-span {
+	font-size: 1.5rem;
+}
+
+.details-macro-value-span {
+	color: red;
+	font-size: 1.5rem;
+	font-weight: bolder;
+}
+
+.details-ingredients-container {
+	font-size: 1.2rem;
+}
+
+.details-ingredient-list {
+	border-bottom: 2px solid #d93838;
 }

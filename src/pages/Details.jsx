@@ -23,13 +23,30 @@ const Details = () => {
 	return (
 		<div className="details-wrapper">
 			<h2>{receipe.nume}</h2>
-			<img src={"/" + receipe.image} alt="..." />
-			<p>{receipe.descriere}</p>
+			<img src={"/" + receipe.image} alt="..." className="details-img" />
+			<p style={{ color: "#d93838", fontSize: "1.2rem", fontWeight: "bolder" }}>
+				{receipe.descriere}
+			</p>
 			<section>
+				<h3>Macronutrienti / 100g</h3>
+				<div
+					style={{ width: "fit-content", margin: "auto" }}
+					className="details-macro-container"
+				>
+					{receipe.macros.map((macr, index) => (
+						<div key={macr.macronutrient + index}>
+							<span className="details-macro-name-span">{macr.macronutrient}: </span>
+							<span className="details-macro-value-span">{macr.valoare} </span>
+						</div>
+					))}
+				</div>
 				<h3>Ingrediente</h3>
-				<ol style={{ width: "fit-content", margin: "auto" }}>
+				<ol
+					style={{ width: "fit-content", margin: "auto" }}
+					className="details-ingredients-container"
+				>
 					{receipe.ingrediente.map((ing, index) => (
-						<li key={ing.ingredient + index}>
+						<li key={ing.ingredient + index} className="details-ingredient-list">
 							<span>{ing.ingredient}: </span>
 							{ing.cantGram}g
 						</li>
@@ -37,7 +54,7 @@ const Details = () => {
 				</ol>
 			</section>
 			<section>
-				<h3>Inidcatii</h3>
+				<h3>Indicatii</h3>
 				<div className="details-indicatii-wrapper">
 					<button className="custom-red-button" onClick={handlePrevStep}>
 						{"<<"}

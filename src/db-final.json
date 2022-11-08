@@ -66,6 +66,24 @@
 					"timerSec": 0
 				}
 			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 183
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 0.5
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 2.6
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 19.7
+				}
+			],
 			"cuvinteCheie": [
 				"lamaie",
 				"sare de lamaie",
@@ -142,6 +160,24 @@
 				{
 					"mesaj": "se serveste cu preparate reci din pasare, cu produse din carne, precum si pestele",
 					"timerSec": 0
+				}
+			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 280
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 9.2
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 17.6
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 21.2
 				}
 			],
 			"cuvinteCheie": [
@@ -226,6 +262,24 @@
 					"timerSec": 0
 				}
 			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 636.2
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 3.5
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 67.4
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 1.2
+				}
+			],
 			"cuvinteCheie": [
 				"maioneza",
 				"galbenus",
@@ -298,6 +352,24 @@
 					"timerSec": 0
 				}
 			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 381.2
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 3
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 39.7
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 3.6
+				}
+			],
 			"cuvinteCheie": [
 				"sos tartar",
 				"sos",
@@ -364,6 +436,24 @@
 					"timerSec": 0
 				}
 			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 467.3
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 0.8
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 51.1
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 1.7
+				}
+			],
 			"cuvinteCheie": [
 				"sos de unt",
 				"unt",
@@ -410,30 +500,6 @@
 				{
 					"ingredient": "sare",
 					"cantGram": 30
-				},
-				{
-					"ingredient": "cartofi",
-					"cantGram": 1500
-				},
-				{
-					"ingredient": "oua",
-					"cantGram": 150
-				},
-				{
-					"ingredient": "faina",
-					"cantGram": 150
-				},
-				{
-					"ingredient": "ulei",
-					"cantGram": 200
-				},
-				{
-					"ingredient": "piper",
-					"cantGram": 2
-				},
-				{
-					"ingredient": "sare",
-					"cantGram": 30
 				}
 			],
 			"indicatii": [
@@ -452,6 +518,24 @@
 				{
 					"mesaj": "din aceasta compozitie se modeleaza chiftelutele cate 2 bucati la portie, se dau prin faina si se prajesc in ulei incins",
 					"timerSec": 0
+				}
+			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 192.1
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 3.2
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 10.9
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 20.5
 				}
 			],
 			"cuvinteCheie": [
@@ -509,6 +593,24 @@
 					"timerSec": 0
 				}
 			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 368
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 18
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 26
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 15.3
+				}
+			],
 			"cuvinteCheie": [
 				"cascaval",
 				"cascaval pane",
@@ -532,7 +634,7 @@
 				},
 				{
 					"ingredient": "oua crude",
-					"cantGram": 10000
+					"cantGram": 1000
 				},
 				{
 					"ingredient": "branza telemea",
@@ -570,6 +672,24 @@
 				},
 				{
 					"mesaj": "se pune totul la cuptor 15 minute, dupa care se portioneaza in portii, portia este de 320g"
+				}
+			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 117.6
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 7
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 6
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 8.6
 				}
 			],
 			"cuvinteCheie": [
@@ -666,6 +786,24 @@
 					"mesaj": "se serveste cald sau rece. Aceeasi reteta se foloseste si la crap prajit"
 				}
 			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 138.1
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 10.3
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 9
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 2.5
+				}
+			],
 			"cuvinteCheie": [
 				"crap",
 				"cap",
@@ -721,6 +859,24 @@
 				{
 					"mesaj": "se servesc calde",
 					"timerSec": 0
+				}
+			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 208.5
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 13.1
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 16.7
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 1.2
 				}
 			],
 			"cuvinteCheie": [
@@ -828,6 +984,24 @@
 					"timerSec": 0
 				}
 			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 14.6
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 0.6
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 0.1
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 3.1
+				}
+			],
 			"cuvinteCheie": [
 				"ciorba",
 				"taraneasca",
@@ -864,124 +1038,105 @@
 			"nume": "Supa de Fasole Boabe si Costita Afumata",
 			"image": "images/supaDeFasoleBoabeSiCostitaAfumata.jpg",
 			"tip": "ciorba",
-			"descriere": "Supa de Fasole Boabe si Costita Afumata pentru 10 portii",
+			"descriere": "Supa de Fasole Boabe si Costita Afumata pentru 10 portii (370g per portie)",
 			"ingrediente": [
 				{
-					"ingredient": "morcovi",
-					"cantGram": 200
-				},
-				{
-					"ingredient": "patrunjel (radacina)",
-					"cantGram": 200
-				},
-				{
-					"ingredient": "telina",
-					"cantGram": 200
-				},
-				{
-					"ingredient": "ceapa",
-					"cantGram": 200
-				},
-				{
-					"ingredient": "cartofi",
+					"ingredient": "fasole boabe",
 					"cantGram": 500
 				},
 				{
-					"ingredient": "ardei grasi",
-					"cantGram": "100"
-				},
-				{
-					"ingredient": "varza alba",
+					"ingredient": "costita afumata",
 					"cantGram": 200
 				},
 				{
-					"ingredient": "rosii proaspete",
-					"cantGram": 500
-				},
-				{
-					"ingredient": "leustean verde",
-					"cantGram": 50
-				},
-				{
-					"ingredient": "mazare conserva",
+					"ingredient": "telina radacina",
 					"cantGram": 100
 				},
 				{
-					"ingredient": "fasole verde conserva",
-					"cantGram": 200
+					"ingredient": "morcovi",
+					"cantGram": 150
 				},
 				{
-					"ingredient": "pasta tomate",
-					"cantGram": 50
+					"ingredient": "patrunjel (radacina)",
+					"cantGram": 100
+				},
+				{
+					"ingredient": "rosii",
+					"cantGram": 250
+				},
+				{
+					"ingredient": "costita",
+					"cantGram": 400
+				},
+				{
+					"ingredient": "iaurt",
+					"cantGram": 300
+				},
+				{
+					"ingredient": "faina",
+					"cantGram": 25
 				},
 				{
 					"ingredient": "patrunjel verde",
 					"cantGram": 50
 				},
 				{
-					"ingredient": "carne de vita",
-					"cantGram": 750
-				},
-				{
-					"ingredient": "sare de lamaie",
-					"cantGram": 5
-				},
-				{
 					"ingredient": "sare",
-					"cantGram": 40
+					"cantGram": 30
 				}
 			],
 			"indicatii": [
 				{
-					"mesaj": "se spala carnea, apoi se portioneaza si se pune la fiert in apa rece cu sare",
+					"mesaj": "fasolea se alege si se lasa in apa rece 12 ore",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "cand da in spuma se adauga ceapa taiata marunt, zarzavaturile taiate marunt is varza taiata feliute si se lasa sa fiarba",
+					"mesaj": "fasolea se fierbe 15 minute, se strecoara, se inlocuieste cu alta apa fierbinte si se continua fierberea",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "cand este aproape gata fiarta (?) se adauga cartofi taiati patratele, mazarea, fasolea verde, pasta de tomate, rosiile si se mai fierbe pana se simt toate fierte",
+					"mesaj": "cand fasolea este pe jumatate fiarta, se adauga zarzavatul taiat marunt",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se adauga leusteanul si patrunjelul taiate marunt",
+					"mesaj": "costita afumata se inabusa in 100 ml de apa si se adauga in supa impreuna cu rosiile",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se acreste cu sarea de lamaie si se serveste calda",
+					"mesaj": "spre sfarsitul fierberii se adauga faina amestecata cu iaurt si sare. Se serveste calda",
 					"timerSec": 0
 				}
 			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 124.1
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 7.4
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 7
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 6.8
+				}
+			],
 			"cuvinteCheie": [
-				"ciorba",
-				"taraneasca",
-				"vita",
-				"taranesc",
+				"fasole boabe",
+				"costita afumata",
+				"costita",
+				"telina",
 				"morcovi",
 				"patrunjel",
-				"radacina",
-				"telina",
-				"ceapa",
-				"cartofi",
-				"ardei grasi",
-				"ardei",
-				"varza alba",
-				"rosii proaspete",
 				"rosii",
-				"leustean",
-				"verde",
-				"leustean verde",
-				"mazare",
-				"fasole",
-				"conserva",
-				"pasta",
-				"tomate",
-				"patrunjel",
-				"carne",
+				"iaurt",
+				"faina",
 				"sare",
-				"sare de lamaie",
-				"lamaie"
+				"supa"
 			]
 		},
 		{
@@ -1004,7 +1159,7 @@
 					"cantGram": 200
 				},
 				{
-					"ingredient": "patunjel",
+					"ingredient": "patrunjel",
 					"cantGram": 150
 				},
 				{
@@ -1048,6 +1203,24 @@
 				{
 					"mesaj": "se adauga uleiul cu sarea, se adauga patrunjelul si leusteanul tocate marunt",
 					"timerSec": 0
+				}
+			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 40.2
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 0.8
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 1.5
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 6.3
 				}
 			],
 			"cuvinteCheie": [
@@ -1161,6 +1334,24 @@
 					"timerSec": 0
 				}
 			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 60.4
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 2.6
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 1.6
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 7.3
+				}
+			],
 			"cuvinteCheie": [
 				"carne de vita",
 				"carne",
@@ -1264,6 +1455,24 @@
 					"timerSec": 0
 				}
 			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 67.1
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 5.7
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 4
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 1.9
+				}
+			],
 			"cuvinteCheie": [
 				"burta",
 				"morcovi",
@@ -1346,6 +1555,24 @@
 					"timerSec": 1800
 				}
 			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 169.8
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 2.8
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 4.9
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 28.3
+				}
+			],
 			"cuvinteCheie": [
 				"unt",
 				"untura",
@@ -1423,6 +1650,24 @@
 					"timerSec": 0
 				}
 			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 302.8
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 7.9
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 2.6
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 61.5
+				}
+			],
 			"cuvinteCheie": [
 				"oua",
 				"zahar pudra",
@@ -1492,6 +1737,24 @@
 					"timerSec": 900
 				}
 			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 245.9
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 6.5
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 5.9
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 41.3
+				}
+			],
 			"cuvinteCheie": [
 				"chec",
 				"iaurt",
@@ -1558,6 +1821,24 @@
 				{
 					"mesaj": "tortul se poate glazura, la alegere, cu ciocolata, frisca, etc.",
 					"timerSec": 1800
+				}
+			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 379.1
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 5.7
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 19.4
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 45.3
 				}
 			],
 			"cuvinteCheie": [
@@ -1661,6 +1942,24 @@
 				{
 					"mesaj": "dupa coacere, cornuletele se presara cu zahar pudra",
 					"timerSec": 0
+				}
+			],
+			"macros": [
+				{
+					"macronutrient": "calorii (Kcal)",
+					"valoare": 398.4
+				},
+				{
+					"macronutrient": "proteina (g)",
+					"valoare": 7.9
+				},
+				{
+					"macronutrient": "carbohidrati (g)",
+					"valoare": 24.3
+				},
+				{
+					"macronutrient": "grasimi (g)",
+					"valoare": 38.6
 				}
 			],
 			"cuvinteCheie": [
