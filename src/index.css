@@ -14,11 +14,6 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.home-parent-container {
-	min-height: calc(100vh - 160px);
-	margin-bottom: 5rem;
-}
-
 .all-container {
 	text-align: center;
 	margin-top: 2rem;

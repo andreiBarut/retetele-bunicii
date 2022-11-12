@@ -70,9 +70,6 @@ const Details = () => {
 					</button>
 					<Card title={`Pasul ${step + 1}`}>
 						<p>{receipe.indicatii[step].mesaj}</p>
-						{receipe.indicatii[step].timerSec !== 0 && (
-							<p>{receipe.indicatii[step].timerSec}</p>
-						)}
 					</Card>
 					<button className="custom-red-button" onClick={handleNextStep}>
 						{">>"}

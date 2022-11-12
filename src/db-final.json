@@ -24,10 +24,6 @@
 					"cantGram": 650
 				},
 				{
-					"ingredient": "mazare verde",
-					"cantGram": 50
-				},
-				{
 					"ingredient": "piper macinat",
 					"cantGram": 2
 				},
@@ -41,7 +37,7 @@
 				},
 				{
 					"ingredient": "marar",
-					"cantGram": 0
+					"cantGram": "-"
 				}
 			],
 			"indicatii": [
@@ -154,7 +150,7 @@
 					"timerSec": 0
 				},
 				{
-					"mesaj": "pe urma se strecoara ...",
+					"mesaj": "pe urma se strecoara printr-o sita",
 					"timerSec": 0
 				},
 				{
@@ -250,7 +246,7 @@
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se adauga margarina treptat, putin cate putin",
+					"mesaj": "se adauga uleiul treptat, putin cate putin",
 					"timerSec": 0
 				},
 				{
@@ -1187,8 +1183,8 @@
 					"cantGram": 40
 				},
 				{
-					"bors": "bors",
-					"cantGram": 0
+					"ingredient": "bors",
+					"cantGram": "-"
 				}
 			],
 			"indicatii": [
