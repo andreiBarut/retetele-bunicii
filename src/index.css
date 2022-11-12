@@ -14,6 +14,11 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.home-parent-container {
+	min-height: calc(100vh - 160px);
+	margin-bottom: 5rem;
+}
+
 .all-container {
 	text-align: center;
 	margin-top: 2rem;
@@ -106,6 +111,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin-bottom: 10rem;
 }
 
 input {
@@ -163,7 +169,7 @@ input {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin-bottom: 2rem;
+	margin-bottom: 10rem;
 }
 
 .details-macro-container {
@@ -188,4 +194,23 @@ input {
 
 .details-ingredient-list {
 	border-bottom: 2px solid #d93838;
+}
+
+.details-return-heading {
+	background-color: #000000;
+	color: #d93838;
+	width: fit-content;
+	bottom: 2rem;
+	right: 0;
+	padding: 1rem;
+	border-radius: 10px;
+	position: fixed;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.details-return-heading:hover {
+	background-color: #d93838;
+	color: #000000;
+	transition: 0.3s;
 }

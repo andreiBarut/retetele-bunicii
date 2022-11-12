@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
 	return (
-		<div>
+		<div className="home-parent-container">
 			<div className="home-info-container">
 				<img src="/images/info.png" alt="..." />
 				<h2 className="home-info-header">

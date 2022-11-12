@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Category from "./pages/Category";
 import Details from "./pages/Details";
 import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 
 function App() {
 	return (
@@ -59,6 +60,7 @@ function App() {
 					}
 				/> */}
 			</Routes>
+			<Footer />
 		</BrowserRouter>
 	);
 }

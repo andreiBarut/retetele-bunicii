@@ -61,7 +61,9 @@ const Category = (props) => {
 					<Card title={receipe.nume} image={"/" + receipe.image}>
 						<div>
 							<p className="category-card-body-paragraph">
-								<span style={{ marginRight: "0.5rem" }}>Ingrediente:</span>
+								<span style={{ marginRight: "0.5rem", fontSize: "1.2rem" }}>
+									Ingrediente:
+								</span>
 								{receipe.ingrediente
 									.map((ingredient) => ingredient.ingredient)
 									.join(", ")}

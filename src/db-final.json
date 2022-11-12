@@ -147,7 +147,7 @@
 				},
 				{
 					"mesaj": "se fierbe timp de 20 de minute",
-					"timerSec": 1200
+					"timerSec": 0
 				},
 				{
 					"mesaj": "se adauga frisca si gelatina si se amesteca pana la omogenizare",
@@ -235,7 +235,7 @@
 				},
 				{
 					"mesaj": "se fierb ouale timp de 10 minute",
-					"timerSec": 600
+					"timerSec": 0
 				},
 				{
 					"mesaj": "ouale fierte se curata de coaja si se separa albusul de galbenus",
@@ -337,7 +337,7 @@
 				},
 				{
 					"mesaj": "se fierb ouale timp de 10 minute",
-					"timerSec": 600
+					"timerSec": 0
 				},
 				{
 					"mesaj": "maioneza se amesteca cu ceapa, patrunjelul tocat marunt si ouale taiate marunt",
@@ -776,7 +776,7 @@
 				},
 				{
 					"mesaj": "dupa ce s-a prajit putin, se adauga ardei grasi taiat felii subtiri, rosiile, pasta de tomate, si usturoiul pisat marunt si se introduce din nou la cuptor circa 30 de minute",
-					"timerSec": 1800
+					"timerSec": 0
 				},
 				{
 					"mesaj": "la sfarsit se adauga vinul si patrunjelul verde taiat marunt pe deasupra",
@@ -1194,7 +1194,7 @@
 			"indicatii": [
 				{
 					"mesaj": "ceapa, morcovii, patrunjelul se taie marunt si se fierb in apa timp de 20 de minute. Uleiul, borsul si sarea se pun la fiert separat. Leusteanul se toaca marunt, dar nu se pune inca",
-					"timerSec": 1200
+					"timerSec": 0
 				},
 				{
 					"mesaj": "dupa 20 de minute se adauga cartofii taiati cuburi iar cand cartofii sunt fierti se adauga pasta tomata",
@@ -1323,11 +1323,11 @@
 				},
 				{
 					"mesaj": "cand perisoarele sunt fierte se adauga pasta de tomate, rosiile si se mai fierb 5 minute",
-					"timerSec": 300
+					"timerSec": 0
 				},
 				{
 					"mesaj": "se mai fierbe apoi 10 minute si se serveste cu verdeata taiata marunt pe deasupra",
-					"timerSec": 600
+					"timerSec": 0
 				},
 				{
 					"mesaj": "se serveste cu bors sau sare de lamaie",
@@ -1428,7 +1428,7 @@
 			"indicatii": [
 				{
 					"mesaj": "burta se opareste, se spala, si se pune la fiert circa 6 ore. Se spumeaza.",
-					"timerSec": 21600
+					"timerSec": 0
 				},
 				{
 					"mesaj": "dupa ce s-a luat spuma, se adauga zarzavaturile taiate marunt, ceapa taiata in 4 bucati, si sarea (dupa ce ceapa a dat gust, se scoate afara)",
@@ -1552,7 +1552,7 @@
 				},
 				{
 					"mesaj": "se coace 30-40 min",
-					"timerSec": 1800
+					"timerSec": 0
 				}
 			],
 			"macros": [
@@ -1734,7 +1734,7 @@
 				},
 				{
 					"mesaj": "se baga tava la cuptor si se coace la foc potrivit 20-30 minute",
-					"timerSec": 900
+					"timerSec": 0
 				}
 			],
 			"macros": [
@@ -1812,15 +1812,15 @@
 				},
 				{
 					"mesaj": "se coace la foc potrivit, 30-45 minute",
-					"timerSec": 1800
+					"timerSec": 0
 				},
 				{
 					"mesaj": "blatul obtinut se poate umple cu crema de vanilie, ciocolata, lamaie, etc.",
-					"timerSec": 1800
+					"timerSec": 0
 				},
 				{
 					"mesaj": "tortul se poate glazura, la alegere, cu ciocolata, frisca, etc.",
-					"timerSec": 1800
+					"timerSec": 0
 				}
 			],
 			"macros": [
@@ -1937,7 +1937,7 @@
 				},
 				{
 					"mesaj": "cornuletele se coc  15-20 minute",
-					"timerSec": 900
+					"timerSec": 0
 				},
 				{
 					"mesaj": "dupa coacere, cornuletele se presara cu zahar pudra",
