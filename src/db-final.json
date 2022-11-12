@@ -33,7 +33,7 @@
 				},
 				{
 					"ingredient": "patrunjel",
-					"cantGram": 0
+					"cantGram": "-"
 				},
 				{
 					"ingredient": "marar",
@@ -142,7 +142,7 @@
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se fierbe timp de 20 de minute",
+					"mesaj": "se fierbe pana se ingroasa",
 					"timerSec": 0
 				},
 				{
@@ -208,15 +208,11 @@
 					"cantGram": 250
 				},
 				{
-					"ingredient": "margarina",
-					"cantGram": 500
-				},
-				{
 					"ingredient": "mustar",
 					"cantGram": 75
 				},
 				{
-					"ingredient": "sare de lamaie",
+					"ingredient": "(optional) sare de lamaie",
 					"cantGram": 2
 				},
 				{
@@ -238,7 +234,7 @@
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se dilueaza margarina cu o lingura de lemn sau o paleta, iar galbenusurile se trec prin sita",
+					"mesaj": "galbenusurile se piseaza foarte marunt astfel incat sa fie compozitia acestora cat mai fina",
 					"timerSec": 0
 				},
 				{
@@ -246,11 +242,11 @@
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se adauga uleiul treptat, putin cate putin",
+					"mesaj": "se adauga uleiul treptat, putin cate putin si se invarte in acelasi sens in continuare, avand grija sa nu se taie compozitia",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se adauga sarea de lamaie si se amesteca pana la omogenizare",
+					"mesaj": "(optional) se adauga sarea de lamaie si se amesteca pana la omogenizare",
 					"timerSec": 0
 				},
 				{
@@ -336,7 +332,7 @@
 					"timerSec": 0
 				},
 				{
-					"mesaj": "maioneza se amesteca cu ceapa, patrunjelul tocat marunt si ouale taiate marunt",
+					"mesaj": "maioneza se amesteca cu : ceapa, patrunjelul, ouale fierte toate tocate cat mai marunt",
 					"timerSec": 0
 				},
 				{
@@ -416,20 +412,15 @@
 			],
 			"indicatii": [
 				{
-					"mesaj": "untul se framanta cu patrunjelul verde tocat marunt",
+					"mesaj": "untul se amesteca cu patrunjelul verde tocat marunt",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se adauga sarea, piperul si sucul de lamaie, iar compozitia obtinuta se toarna pe coli de hartie pergament",
+					"mesaj": "se adauga sarea, piperul si sucul de lamaie",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se ruleaza hartia in rulouri cu diametrul de 2 cm si se pastreaza la rece, pana la servire",
-					"timerSec": 0
-				},
-				{
-					"mesaj": "se foloseste ca ornament garnisit si ca decor, pentru preparate la gratar din carne de vita si peste",
-					"timerSec": 0
+					"mesaj": "acest sos se poate folosi ca si condiment pentru preparate din carne sau pentru a umple anumite rulade"
 				}
 			],
 			"macros": [
@@ -500,19 +491,27 @@
 			],
 			"indicatii": [
 				{
-					"mesaj": "cartofii se fierb cu coaje si sare",
+					"mesaj": "cartofii in coaja se pun la fiert in apa cu putina sare",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se toaca cu masina",
+					"mesaj": "dupa ce s-au racit cartofii, se curata de coaja si se razuiesc intr-un bol",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se adauga ouale, sarea, piperul si se amesteca",
+					"mesaj": "se adauga ouale, sarea, piperul si se framanta; dupa preferinta se pot adauga anumite condimente, dupa gust",
 					"timerSec": 0
 				},
 				{
 					"mesaj": "din aceasta compozitie se modeleaza chiftelutele cate 2 bucati la portie, se dau prin faina si se prajesc in ulei incins",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se scot la scurs pe servetel pentru a se absorbi surplusul de ulei",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se servesc dupa preferinta cu sosuri sau simple",
 					"timerSec": 0
 				}
 			],
@@ -585,7 +584,7 @@
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se prajesc in ulei pe ambele parti si se serveste fierbinte",
+					"mesaj": "bucatile de cascaval se prajesc in ulei incins pe ambele parti si se servesc fierbinti",
 					"timerSec": 0
 				}
 			],
@@ -637,7 +636,7 @@
 					"cantGram": 500
 				},
 				{
-					"ingredient": "margarina",
+					"ingredient": "untura de porc",
 					"cantGram": 200
 				},
 				{
@@ -651,23 +650,23 @@
 			],
 			"indicatii": [
 				{
-					"mesaj": "pe o tava unsa cu margarinase aseaza un strat de mamaliga, unul de branza rasa in asa fel incat sa fie trei randuri",
+					"mesaj": "pe o tava unsa cu untura se aseaza un strat de mamaliga, unul de branza rasa, apoi se repeta procedeul pana avem 3 straturi de mamaliga si branza",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "pe randul de deasupra primelor trei se pune stratul de mamaliga",
+					"mesaj": "ultimul trebuie sa fie un strat de mamaliga, pe care il ungem cu untura",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "in ultimul strat de mamaliga se fac goluri cu ajutorul unui polonic in care se aeaza cele doua oua",
+					"mesaj": "in ultimul strat de mamaliga se fac adancituri cu ajutorul unui polonic in care se aeaza cele doua oua (ouale le spargem intregi direct in adancituri)",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "margarina se presara cu cascavalul ras pe deasupra",
+					"mesaj": "se presara cascaval ras pe deasupra",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se pune totul la cuptor 15 minute, dupa care se portioneaza in portii, portia este de 320g"
+					"mesaj": "se pune totul la cuptor 15 minute, dupa care se portioneaza in portii de 320g"
 				}
 			],
 			"macros": [
@@ -723,10 +722,6 @@
 				{
 					"ingredient": "ardei grasi",
 					"cantGram": 200
-				},
-				{
-					"ingredient": "pasta de tomate",
-					"cantGram": 50
 				},
 				{
 					"ingredient": "rosii",
@@ -849,7 +844,7 @@
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se adauga ouale batute cate 2 per portie si se amesteca pana se prajesc",
+					"mesaj": "se adauga ouale batute condimentate dupa gust cate 2 per portie si se amesteca pana se prajesc",
 					"timerSec": 0
 				},
 				{
@@ -964,15 +959,15 @@
 					"timerSec": 0
 				},
 				{
-					"mesaj": "cand da in spuma se adauga ceapa taiata marunt, zarzavaturile taiate marunt is varza taiata feliute si se lasa sa fiarba",
+					"mesaj": "cand incepe sa fiarba, spumam ciorba, iar cand am terminat de spumat se adauga ceapa, zarzavaturile si varza taiate marunt si se lasa sa fiarba",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "cand este aproape gata fiarta (?) se adauga cartofi taiati patratele, mazarea, fasolea verde, pasta de tomate, rosiile si se mai fierbe pana se simt toate fierte",
+					"mesaj": "cand legumele adaugate sunt aproape fierte, se adauga cartofi taiati cubulete, mazarea, fasolea verde, pasta de tomate, rosiile si se mai fierbe pana sunt toate fierte",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se adauga leusteanul si patrunjelul taiate marunt",
+					"mesaj": "se adauga frunzele de leustean si patrunjel taiate marunt",
 					"timerSec": 0
 				},
 				{
@@ -1312,23 +1307,27 @@
 					"timerSec": 0
 				},
 				{
-					"mesaj": "din compozitie se formeaza perisoarele in forma rotunda si se aseaza pe un platou stropit cu apa",
+					"mesaj": "din compozitie se formeaza perisoarele in forma rotunda si se aseaza pe un platou uns cu ulei",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "perisoarele si restul de orez se adauga in ciorba",
+					"mesaj": "cantiatea de orez care a mai ramas in urma modelarii perisoarelor se pune la fiert separat in apa cu sare",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "cand perisoarele sunt fierte se adauga pasta de tomate, rosiile si se mai fierb 5 minute",
+					"mesaj": "perisoarele formate se fierb de asemenea separat in apa cu sare",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se mai fierbe apoi 10 minute si se serveste cu verdeata taiata marunt pe deasupra",
+					"mesaj": "dupa ce perisoarele si orezul sunt fierte, se adauga in ciorba",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se serveste cu bors sau sare de lamaie",
+					"mesaj": "apoi se adauga pasta de tomate, rosiile si se mai fierb 10 minute",
+					"timerSec": 0
+				},
+				{
+					"mesaj": "se serveste cu bors sau sare de lamaie, si/sau verdeata taiata marunt pe deasupra dupa preferinta",
 					"timerSec": 0
 				}
 			],
@@ -1425,11 +1424,11 @@
 			],
 			"indicatii": [
 				{
-					"mesaj": "burta se opareste, se spala, si se pune la fiert circa 6 ore. Se spumeaza.",
+					"mesaj": "burta se opareste, se spala, si se pune la fiert. Dupa o ora de fierbere, aruncam apa si punem apa curata, dupa care mai fierbem 5 ore, spumand ciorba.",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "dupa ce s-a luat spuma, se adauga zarzavaturile taiate marunt, ceapa taiata in 4 bucati, si sarea (dupa ce ceapa a dat gust, se scoate afara)",
+					"mesaj": "dupa ce s-a luat spuma, se adauga zarzavaturile taiate in bucati mai mari, ceapa taiata in 4 bucati, si sarea (dupa ce ceapa a dat gust, se scoate afara)",
 					"timerSec": 0
 				},
 				{
@@ -1437,11 +1436,14 @@
 					"timerSec": 0
 				},
 				{
-					"mesaj": "zeama in care a fiert burta se strecoare peste burta taiata si se lasa sa fiarba",
+					"mesaj": "ciorba se strecoara, ramanand doar feliile de burta (se scot zarzavaturile)",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se amesteca faina cu smantana pana la omogenizare, apoi se adauga galbenusurile de oua, amestecand totul din nou pana la omogenizare si se adauga in ciorba de burta",
+					"mesaj": "se amesteca smantana cu fainasi galbenusurile de oua pana la omogenizare"
+				},
+				{
+					"mesaj": "cand incepe din nou ciorba obtinuta in urma strecurarii sa fiarba, se amesteca cu compozitia de faina, smantana si galbenusuri, amestecand totul",
 					"timerSec": 0
 				},
 				{
@@ -1541,11 +1543,11 @@
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se adauga ouale, laptele si restul ingredientelor cu exceptia fainei",
+					"mesaj": "se adauga ouale, laptele si restul ingredientelor",
 					"timerSec": 0
 				},
 				{
-					"mesaj": "se adauga faina cat cuprinde aluatul si se imparte in doua foi",
+					"mesaj": "in continuare se adauga faina amestecand si framantand pana obtinem un aluat care se poate intinde cu sucitorul",
 					"timerSec": 0
 				},
 				{
