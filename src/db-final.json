@@ -68,7 +68,7 @@
 					"valoare": 183
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteinproteine (g)",
 					"valoare": 0.5
 				},
 				{
@@ -164,7 +164,7 @@
 					"valoare": 280
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 9.2
 				},
 				{
@@ -264,7 +264,7 @@
 					"valoare": 636.2
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 3.5
 				},
 				{
@@ -354,7 +354,7 @@
 					"valoare": 381.2
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 3
 				},
 				{
@@ -438,7 +438,7 @@
 					"valoare": 467.3
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 0.8
 				},
 				{
@@ -522,7 +522,7 @@
 					"valoare": 192.1
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 3.2
 				},
 				{
@@ -595,7 +595,7 @@
 					"valoare": 368
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 18
 				},
 				{
@@ -676,7 +676,7 @@
 					"valoare": 117.6
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 7
 				},
 				{
@@ -788,7 +788,7 @@
 					"valoare": 138.1
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 10.3
 				},
 				{
@@ -863,7 +863,7 @@
 					"valoare": 208.5
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 13.1
 				},
 				{
@@ -986,7 +986,7 @@
 					"valoare": 14.6
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 0.6
 				},
 				{
@@ -1109,7 +1109,7 @@
 					"valoare": 124.1
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 7.4
 				},
 				{
@@ -1122,6 +1122,8 @@
 				}
 			],
 			"cuvinteCheie": [
+				"fasole",
+				"boabe",
 				"fasole boabe",
 				"costita afumata",
 				"costita",
@@ -1207,7 +1209,7 @@
 					"valoare": 40.2
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 0.8
 				},
 				{
@@ -1336,7 +1338,7 @@
 					"valoare": 60.4
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 2.6
 				},
 				{
@@ -1457,7 +1459,7 @@
 					"valoare": 67.1
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 5.7
 				},
 				{
@@ -1557,7 +1559,7 @@
 					"valoare": 169.8
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 2.8
 				},
 				{
@@ -1652,7 +1654,7 @@
 					"valoare": 302.8
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 7.9
 				},
 				{
@@ -1739,7 +1741,7 @@
 					"valoare": 245.9
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 6.5
 				},
 				{
@@ -1825,7 +1827,7 @@
 					"valoare": 379.1
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 5.7
 				},
 				{
@@ -1946,7 +1948,7 @@
 					"valoare": 398.4
 				},
 				{
-					"macronutrient": "proteina (g)",
+					"macronutrient": "proteine (g)",
 					"valoare": 7.9
 				},
 				{

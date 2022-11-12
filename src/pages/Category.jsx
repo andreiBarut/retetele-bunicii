@@ -58,7 +58,7 @@ const Category = (props) => {
 			</div>
 			<div className="category-cards-list">
 				{list.map((receipe) => (
-					<Card title={receipe.nume} image={"/" + receipe.image}>
+					<Card title={receipe.nume} image={"/" + receipe.image} key={receipe.id}>
 						<div>
 							<p className="category-card-body-paragraph">
 								<span style={{ marginRight: "0.5rem", fontSize: "1.2rem" }}>
