@@ -57,7 +57,7 @@ const Details = () => {
 					{receipe.ingrediente.map((ing, index) => (
 						<li key={ing.ingredient + index} className="details-ingredient-list">
 							<span>{ing.ingredient}: </span>
-							{ing.cantGram}g
+							{ing.cantGram}
 						</li>
 					))}
 				</ol>
