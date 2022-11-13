@@ -17,7 +17,6 @@ const Category = (props) => {
 	}, []);
 
 	function searchOnEnter(key) {
-		console.log(key);
 		if (key.code === "Enter") handleSearch();
 	}
 
@@ -26,7 +25,8 @@ const Category = (props) => {
 	}
 
 	function handleSearch() {
-		const value = searchRef.current.value.toLowerCase();
+		if (!searchRef.current?.value) return;
+		const value = searchRef.current?.value.toLowerCase();
 		if (!value || value === "") {
 			setList(db[category]);
 			return;

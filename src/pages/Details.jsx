@@ -9,14 +9,11 @@ const Details = () => {
 	const receipe = db[category].find((receipe) => receipe.nume === name);
 	const navigate = useNavigate();
 
-	console.log(receipe);
-
 	function handleRedirect() {
 		navigate(`/category/${category}`);
 	}
 
 	const handlePrevStep = () => {
-		console.log(step);
 		if (step === 0) return;
 		setStep((step) => step - 1);
 	};
