@@ -38,7 +38,7 @@ const Category = (props) => {
 	}
 
 	function reset() {
-		document.location.reload();
+		setList(db[category]);
 	}
 
 	return (
