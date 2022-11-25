@@ -37,6 +37,10 @@ const Category = (props) => {
 		setList(foundData);
 	}
 
+	function reset() {
+		document.location.reload();
+	}
+
 	return (
 		<div className="search-container">
 			<h1>{category}</h1>
@@ -51,9 +55,16 @@ const Category = (props) => {
 					</h2>
 				</div>
 				<input type="text" ref={searchRef} />
+				<img
+					src="/images/x.png"
+					alt="clear button"
+					onClick={reset}
+					className="category-clear-image"
+				/>
 				<button className="category-search-button" onClick={handleSearch}>
 					Cauta
 				</button>
+
 				<h1>Retete</h1>
 			</div>
 			<div className="category-cards-list">

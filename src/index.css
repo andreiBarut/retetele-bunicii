@@ -209,3 +209,13 @@ input {
 	color: #000000;
 	transition: 0.3s;
 }
+
+.category-clear-image {
+	height: 2rem;
+}
+
+.category-clear-image:hover {
+	transform: scale(1.3);
+	transition: 0.3s;
+	cursor: pointer;
+}
