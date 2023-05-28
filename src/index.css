@@ -14,44 +14,31 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.all-container {
-	text-align: center;
-	margin-top: 2rem;
-}
+/** HOME PAGE */
 
 .home-info-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 20px;
-	flex-wrap: wrap;
-	position: relative;
+	text-align: center;
 }
 
 .home-info-container > img {
 	height: 60px;
 }
 
-.home-info-header {
-	text-align: center;
+.home-parent-container {
+	min-height: 100vh;
 }
 
-.main-container {
+.home-links-container {
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 3rem;
+	gap: 20px;
 	flex-wrap: wrap;
-	gap: 5vw;
-	height: 200px;
-	position: relative;
-	/* top: 5rem; */
-	/* left: 50%;
-	top: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%); */
 }
 
-.element-container {
+.home-element-container {
 	text-align: center;
 }
 
@@ -66,55 +53,37 @@ a {
 	color: #000000;
 }
 
-.search-container {
+/** CATEGORY PAGE  */
+
+.category-parent-container {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	margin-bottom: 8rem;
 }
 
-.category-card-body-paragraph {
-	width: 15rem;
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	margin: auto;
-}
-
-.custom-red-button {
-	font-size: large;
-	background: #d93838;
-	border-radius: 10px;
-	color: white;
-	width: 10rem;
-	height: 3rem;
-	margin: 1rem;
-	border: none;
-	cursor: pointer;
-	font-family: "IM Fell DW Pica SC", serif;
-	max-width: 6rem;
-}
-
-.custom-red-button:hover {
-	background-color: black;
-	color: #fff7ed;
-	transition: 0.3s;
-}
-
-.category-cards-list {
+.category-search-container {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
-	margin-bottom: 10rem;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	text-align: center;
 }
 
-input {
-	font-size: 1.5rem;
-	font-family: "IM Fell DW Pica SC", serif;
-	border: 2px solid #d93838;
-	border-radius: 10px;
-	text-align: center;
+.category-search-container > label {
+	font-size: larger;
+}
+
+.category-clear-image {
+	height: 2rem;
+}
+
+.category-clear-image:hover {
+	transform: scale(1.3);
+	transition: 0.3s;
+	cursor: pointer;
 }
 
 .category-search-button {
@@ -135,36 +104,80 @@ input {
 	transition: 0.3s;
 }
 
-.category-search-container {
+.category-cards-list {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	gap: 10px;
+	margin-bottom: 10rem;
 }
 
-.category-search-container > label {
-	font-size: larger;
+.category-card-body-paragraph {
+	width: 15rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: auto;
 }
+
+.category-custom-red-button {
+	font-size: large;
+	background: #d93838;
+	border-radius: 10px;
+	color: white;
+	width: 10rem;
+	height: 3rem;
+	margin: 1rem;
+	border: none;
+	cursor: pointer;
+	font-family: "IM Fell DW Pica SC", serif;
+	max-width: 6rem;
+}
+
+.category-custom-red-button:hover {
+	background-color: black;
+	color: #fff7ed;
+	transition: 0.3s;
+}
+
+input {
+	font-size: 1.5rem;
+	font-family: "IM Fell DW Pica SC", serif;
+	border: 2px solid #d93838;
+	border-radius: 10px;
+	text-align: center;
+}
+
+/** DETAILS PAGE */
 
 .details-wrapper {
 	text-align: center;
 }
 
-.details-wrapper > img {
+.details-return-heading {
+	background-color: #000000;
+	color: #d93838;
+	width: fit-content;
+	bottom: 2rem;
+	right: 0;
+	padding: 1rem;
+	border-radius: 10px;
+	position: fixed;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.details-return-heading:hover {
+	background-color: #d93838;
+	color: #000000;
+	transition: 0.3s;
+}
+
+.details-img {
 	width: 50%;
 	max-width: 50rem;
 	min-width: 20rem;
 	height: auto;
 	border-radius: 10px;
-}
-
-.details-indicatii-wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	margin-bottom: 10rem;
 }
 
 .details-macro-container {
@@ -191,31 +204,10 @@ input {
 	border-bottom: 2px solid #d93838;
 }
 
-.details-return-heading {
-	background-color: #000000;
-	color: #d93838;
-	width: fit-content;
-	bottom: 2rem;
-	right: 0;
-	padding: 1rem;
-	border-radius: 10px;
-	position: fixed;
-	opacity: 0.8;
-	cursor: pointer;
-}
-
-.details-return-heading:hover {
-	background-color: #d93838;
-	color: #000000;
-	transition: 0.3s;
-}
-
-.category-clear-image {
-	height: 2rem;
-}
-
-.category-clear-image:hover {
-	transform: scale(1.3);
-	transition: 0.3s;
-	cursor: pointer;
+.details-indicatii-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 10rem;
 }

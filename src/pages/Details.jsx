@@ -62,13 +62,13 @@ const Details = () => {
 			<section>
 				<h3>Indicatii</h3>
 				<div className="details-indicatii-wrapper">
-					<button className="custom-red-button" onClick={handlePrevStep}>
+					<button className="category-custom-red-button" onClick={handlePrevStep}>
 						{"<<"}
 					</button>
 					<Card title={`Pasul ${step + 1}`}>
 						<p>{receipe.indicatii[step].mesaj}</p>
 					</Card>
-					<button className="custom-red-button" onClick={handleNextStep}>
+					<button className="category-custom-red-button" onClick={handleNextStep}>
 						{">>"}
 					</button>
 				</div>

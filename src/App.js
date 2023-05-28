@@ -15,50 +15,6 @@ function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="/category/:category" element={<Category />} />
 				<Route path="/details/:name/:category" element={<Details />} />
-				{/* <Route
-					path="/gravy"
-					element={
-						<Gravy
-							ingredient={ingredient}
-							setIngredient={setIngredient}
-							endPoint={endPoint}
-							setEndPoint={setEndPoint}
-						/>
-					}
-				/>
-				<Route
-					path="/soups"
-					element={
-						<Soups
-							ingredient={ingredient}
-							setIngredient={setIngredient}
-							endPoint={endPoint}
-							setEndPoint={setEndPoint}
-						/>
-					}
-				/>
-				<Route
-					path="/maincourse"
-					element={
-						<MainCourse
-							ingredient={ingredient}
-							setIngredient={setIngredient}
-							endPoint={endPoint}
-							setEndPoint={setEndPoint}
-						/>
-					}
-				/>
-				<Route
-					path="/desserts"
-					element={
-						<Desserts
-							ingredient={ingredient}
-							setIngredient={setIngredient}
-							endPoint={endPoint}
-							setEndPoint={setEndPoint}
-						/>
-					}
-				/> */}
 			</Routes>
 			<Footer />
 		</BrowserRouter>

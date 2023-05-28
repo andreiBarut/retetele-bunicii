@@ -1,20 +1,18 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import db from "../db-final.json";
 import Card from "../components/card/card";
 import "../index.css";
 
-const Category = (props) => {
+const Category = () => {
 	const { category } = useParams();
+	// console.log(category);
 	const [list, setList] = useState(db[category]);
 
 	const navigate = useNavigate();
 	const searchRef = useRef();
 
-	useEffect(() => {
-		document.addEventListener("keypress", searchOnEnter);
-		return () => document.removeEventListener("keydown", searchOnEnter);
-	}, []);
+	document.addEventListener("keypress", searchOnEnter);
 
 	function searchOnEnter(key) {
 		if (key.code === "Enter") handleSearch();
@@ -27,10 +25,6 @@ const Category = (props) => {
 	function handleSearch() {
 		if (!searchRef.current?.value) return;
 		const value = searchRef.current?.value.toLowerCase();
-		if (!value || value === "") {
-			setList(db[category]);
-			return;
-		}
 		const foundData = db[category].filter((cat) => {
 			return cat.cuvinteCheie.includes(value);
 		});
@@ -42,14 +36,14 @@ const Category = (props) => {
 	}
 
 	return (
-		<div className="search-container">
+		<div className="category-parent-container">
 			<h1>{category}</h1>
 
 			<br />
 			<div className="category-search-container">
-				<div className="home-info-container">
-					<img src="/images/info.png" alt="..." />
-					<h2 className="home-info-header">
+				<div style={{ textAlign: "center" }}>
+					<img src="/images/info.png" alt="..." style={{ height: "50px" }} />
+					<h2>
 						alege una dintre retetele disponibile, sau introdu niste cuvinte cuvinte
 						cheie, iar noi te vom ajuta sa gasesti reteta potrivita.
 					</h2>
@@ -80,7 +74,7 @@ const Category = (props) => {
 									.join(", ")}
 							</p>
 							<button
-								className="custom-red-button"
+								className="category-custom-red-button"
 								onClick={() => handleRedirect(receipe.nume)}
 							>
 								GATESTE
